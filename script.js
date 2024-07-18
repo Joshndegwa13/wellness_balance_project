@@ -7,7 +7,7 @@ document.getElementById('fitness-form').addEventListener('submit', function (eve
     const level = document.getElementById('level').value;
 
     // Fetch the workout plans from the JSON server raw data 
-    fetch('https://wellness-balance-project.vercel.app/')
+    fetch('http://localhost:3000/workoutPlans')
         .then(response => response.json()) // Parse the JSON data from the response
         .then(data => {
             // Finding the workout plan that matches the selected goal and level
