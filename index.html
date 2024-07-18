@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Balance</title>
+    <!-- cdn Link to Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to our style.css document -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="bg-gray-800"> 
+    <!-- Header section -->
+    <header class="bg-gradient-to-r from-blue-500 to-teal-600 text-white py-8 text-center">
+        <div class="flex items-center justify-center">
+            <!-- Logo -->
+            <img src="wellnesslogo.png" alt="Wellness Balance Logo" class="h-20 w-20 mr-10">
+            <div>
+                <h1 class="text-4xl font-bold">Wellness Balance</h1>
+                <p class="text-lg mt-2">Your Personalized Fitness Coach</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <main class="p-6 md:p-12">
+        <!-- User input form section -->
+        <section class="bg-white shadow-lg rounded-lg p-8 max-w-3xl mx-auto">
+            <h2 class="text-2xl font-semibold mb-6 text-center">Enter Your Fitness Details</h2>
+            <form id="fitness-form" class="space-y-6">
+                <!-- Fitness goal input here the user inputs their fitness goals-->
+                <div class="flex flex-col">
+                    <label for="goal" class="text-lg font-medium">Fitness Goal</label>
+                    <select id="goal" class="mt-1 p-3 border rounded-lg w-full">
+                        <option value="weight-loss">Weight Loss</option>
+                        <option value="build-muscle">Build Muscle</option>
+                        <option value="endurance">Endurance</option>
+                    </select>
+                </div>
+                <!-- Fitness level input here the user inputs their fitness level -->
+                <div class="flex flex-col">
+                    <label for="level" class="text-lg font-medium">Current Fitness Level</label>
+                    <select id="level" class="mt-1 p-3 border rounded-lg w-full">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+                <!-- Submit button -->
+                <button type="submit" class="bg-gradient-to-r from-blue-600 to-teal-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition">Generate Workout Plan</button>
+            </form>
+        </section>
+
+        <!-- Workout plan display section -->
+        <section id="workout-plan" class="mt-10 max-w-3xl mx-auto">
+            <!-- Workout plan will be geerated here using javascript -->
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="bg-gray-800 text-white py-6 text-center mt-12">
+        <p>&copy; 2024 Wellness Balance. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to our JavaScript file -->
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+  "workoutPlans": [
+    {
+      "goal": "weight-loss",
+      "level": "beginner",
+      "exercises": [
+        {"name": "Walking", "sets": 3, "reps": "30m"},
+        {"name": "Bodyweight Squats", "sets": 3, "reps": 15},
+        {"name": "Jumping Jacks", "sets": 3, "reps": 20}
+      ]
+    },
+    {
+      "goal": "weight-loss",
+      "level": "intermediate",
+      "exercises": [
+        {"name": "Jogging", "sets": 3, "reps": "20m"},
+        {"name": "Push-Ups", "sets": 3, "reps": 15},
+        {"name": "Lunges", "sets": 3, "reps": 20}
+      ]
+    },
+    {
+      "goal": "weight-loss",
+      "level": "advanced",
+      "exercises": [
+        {"name": "Running", "sets": 4, "reps": "30m"},
+        {"name": "Burpees", "sets": 4, "reps": 20},
+        {"name": "Mountain Climbers", "sets": 4, "reps": 25}
+      ]
+    },
+    {
+      "goal": "build-muscle",
+      "level": "beginner",
+      "exercises": [
+        {"name": "Push-Ups", "sets": 3, "reps": 10},
+        {"name": "Bodyweight Squats", "sets": 3, "reps": 15},
+        {"name": "Dumbbell Rows", "sets": 3, "reps": 10}
+      ]
+    },
+    {
+      "goal": "build-muscle",
+      "level": "intermediate",
+      "exercises": [
+        {"name": "Bench Press", "sets": 4, "reps": 10},
+        {"name": "Deadlifts", "sets": 4, "reps": 10},
+        {"name": "Pull-Ups", "sets": 4, "reps": 10}
+      ]
+    },
+    {
+      "goal": "build-muscle",
+      "level": "advanced",
+      "exercises": [
+        {"name": "Squats", "sets": 5, "reps": 10},
+        {"name": "Deadlifts", "sets": 5, "reps": 10},
+        {"name": "Barbell Rows", "sets": 5, "reps": 10}
+      ]
+    },
+    {
+      "goal": "endurance",
+      "level": "beginner",
+      "exercises": [
+        {"name": "Brisk Walking", "sets": 3, "reps": "30m"},
+        {"name": "Cycling", "sets": 3, "reps": "20m"},
+        {"name": "Swimming", "sets": 3, "reps": "20m"}
+      ]
+    },
+    {
+      "goal": "endurance",
+      "level": "intermediate",
+      "exercises": [
+        {"name": "Running", "sets": 3, "reps": "20m"},
+        {"name": "Rowing", "sets": 3, "reps": "15m"},
+        {"name": "Jump Rope", "sets": 3, "reps": "10m"}
+      ]
+    },
+    {
+      "goal": "endurance",
+      "level": "advanced",
+      "exercises": [
+        {"name": "HIIT", "sets": 4, "reps": "30m"},
+        {"name": "Stair Climbing", "sets": 4, "reps": "20m"},
+        {"name": "Swimming Laps", "sets": 4, "reps": "30m"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+
+/* Sets the default font and line height and body bg color */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f3f4f6;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(to right, #1e3a8a, #0284c7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Our Header title styling */
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Our Header subtitle styling */
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+/* Button styling */
+button {
+    background: linear-gradient(to right, #3b82f6, #60a5fa);
+    border: none;
+    transition: background 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background: linear-gradient(to right, #2563eb, #4f46e5);
+}
+
+/* Workout plan section styling */
+#workout-plan {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Workout plan title styling */
+#workout-plan h3 {
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Remove list styling for workout plan items(removes the bullets)*/
+#workout-plan ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Workout plan items styling */
+#workout-plan ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #a3aab6c9;
+}
+
+/* Remove border line for last workout plan item */
+#workout-plan ul li:last-child {
+    border-bottom: none;
+}
