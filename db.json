@@ -4,7 +4,7 @@
       "goal": "weight-loss",
       "level": "beginner",
       "exercises": [
-        {"name": "Walking", "sets": 3, "reps": "30m"},
+        {"name": "Walking", "sets": 3, "reps": "30minutes"},
         {"name": "Bodyweight Squats", "sets": 3, "reps": 15},
         {"name": "Jumping Jacks", "sets": 3, "reps": 20}
       ]
