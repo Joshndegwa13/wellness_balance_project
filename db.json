@@ -22,11 +22,8 @@
       "goal": "weight-loss",
       "level": "advanced",
       "exercises": [
-<<<<<<< HEAD
-        {"name": "Running", "sets": 4, "reps": "30 m"},
-=======
         {"name": "Running", "sets": 4, "reps": "30 minutes"},
->>>>>>> 5ea3dde89a2e44e7844427a81957175d0737ea41
+        {"name": "Running", "sets": 4, "reps": "30 minutes"},
         {"name": "Burpees", "sets": 4, "reps": 20},
         {"name": "Mountain Climbers", "sets": 4, "reps": 25}
       ]
