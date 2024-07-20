@@ -5,7 +5,7 @@ document.getElementById('fitness-form').addEventListener('submit', function (eve
     // Get the values of the selected goal and level
     const goal = document.getElementById('goal').value;
     const level = document.getElementById('level').value;
-
+cd 
     // Fetch the workout plans from the JSON server raw data 
     fetch('https://db-pi-ten.vercel.app/workoutPlans')
         .then(response => response.json()) // Parse the JSON data from the response
