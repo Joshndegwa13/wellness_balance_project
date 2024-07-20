@@ -13,7 +13,7 @@
       "goal": "weight-loss",
       "level": "intermediate",
       "exercises": [
-        {"name": "Jogging", "sets": 3, "reps": "20m"},
+        {"name": "Jogging", "sets": 3, "reps": "20 minutes"},
         {"name": "Push-Ups", "sets": 3, "reps": 15},
         {"name": "Lunges", "sets": 3, "reps": 20}
       ]
@@ -22,7 +22,7 @@
       "goal": "weight-loss",
       "level": "advanced",
       "exercises": [
-        {"name": "Running", "sets": 4, "reps": "30m"},
+        {"name": "Running", "sets": 4, "reps": "30 m"},
         {"name": "Burpees", "sets": 4, "reps": 20},
         {"name": "Mountain Climbers", "sets": 4, "reps": 25}
       ]
