@@ -4,7 +4,7 @@
       "goal": "weight-loss",
       "level": "beginner",
       "exercises": [
-        {"name": "Walking", "sets": 3, "reps": "30minutes"},
+        {"name": "Walking", "sets": 3, "reps": "30 minutes"},
         {"name": "Bodyweight Squats", "sets": 3, "reps": 15},
         {"name": "Jumping Jacks", "sets": 3, "reps": 20}
       ]
@@ -22,7 +22,11 @@
       "goal": "weight-loss",
       "level": "advanced",
       "exercises": [
+<<<<<<< HEAD
         {"name": "Running", "sets": 4, "reps": "30 m"},
+=======
+        {"name": "Running", "sets": 4, "reps": "30 minutes"},
+>>>>>>> 5ea3dde89a2e44e7844427a81957175d0737ea41
         {"name": "Burpees", "sets": 4, "reps": 20},
         {"name": "Mountain Climbers", "sets": 4, "reps": 25}
       ]
@@ -58,27 +62,27 @@
       "goal": "endurance",
       "level": "beginner",
       "exercises": [
-        {"name": "Brisk Walking", "sets": 3, "reps": "30m"},
-        {"name": "Cycling", "sets": 3, "reps": "20m"},
-        {"name": "Swimming", "sets": 3, "reps": "20m"}
+        {"name": "Brisk Walking", "sets": 3, "reps": "30 minutes"},
+        {"name": "Cycling", "sets": 3, "reps": "20 minutes"},
+        {"name": "Swimming", "sets": 3, "reps": "20 minutes"}
       ]
     },
     {
       "goal": "endurance",
       "level": "intermediate",
       "exercises": [
-        {"name": "Running", "sets": 3, "reps": "20m"},
-        {"name": "Rowing", "sets": 3, "reps": "15m"},
-        {"name": "Jump Rope", "sets": 3, "reps": "10m"}
+        {"name": "Running", "sets": 3, "reps": "20 minutes"},
+        {"name": "Rowing", "sets": 3, "reps": "15 minutes"},
+        {"name": "Jump Rope", "sets": 3, "reps": "10 minutes"}
       ]
     },
     {
       "goal": "endurance",
       "level": "advanced",
       "exercises": [
-        {"name": "HIIT", "sets": 4, "reps": "30m"},
-        {"name": "Stair Climbing", "sets": 4, "reps": "20m"},
-        {"name": "Swimming Laps", "sets": 4, "reps": "30m"}
+        {"name": "HIIT", "sets": 4, "reps": "30 minutes"},
+        {"name": "Stair Climbing", "sets": 4, "reps": "20 minutes"},
+        {"name": "Swimming Laps", "sets": 4, "reps": "30 minutes"}
       ]
     }
   ]
